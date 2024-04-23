@@ -8,8 +8,8 @@ services:
         - "30000-30009:30000-30009"
       volumes:
         - users:/home/virtual
-        - projects:/home/virtual/www-data/html
-        - template:/home/virtual/www-data/template
+        - projects:/home/virtual/projects
+        - template:/home/virtual/template
 
       environment:
         PASV_ADDRESS: 0.0.0.0
